@@ -1,0 +1,203 @@
+/* Existing CSS for register.html - DO NOT CHANGE */
+{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background: url('https://i.ytimg.com/vi/QV4-BKEa5HU/maxresdefault.jpg');
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+.form-box {
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  text-align: center;
+}
+
+.form-box h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #ddd;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 5px;
+  display: block;
+}
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff004c;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #e60045;
+}
+
+/* Additional CSS for success.html */
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.success-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  text-align: center;
+}
+
+.success-box h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.success-subtitle {
+  font-size: 13px;
+  color: #ddd;
+  margin-bottom: 25px;
+}
+
+.success-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff004c;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.success-button:hover {
+  background-color: #e60045;
+}
+
+/* Additional CSS for tournament.html */
+.tournament-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.tournament-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+  width: 100%;
+  max-width: 800px;
+  color: white;
+  text-align: center;
+}
+
+.tournament-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.squad-list {
+  list-style: none;
+  padding: 0;
+}
+
+.squad-item {
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.squad-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.squad-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.delete-button {
+  padding: 8px 16px;
+  background-color: #ff004c;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #e60045;
+}
